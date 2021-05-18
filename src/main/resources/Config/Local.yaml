@@ -2,4 +2,13 @@ http:
   listner:
      host: "localhost"
      port: "8081"
-     path: "/Routes"
+     path: "/travelontipcall/{ServiceType}"
+     
+db:
+  oracle:
+    host: "localhost"
+    port: "1521"
+    user: "system"
+    password: "system"
+    instance: ""
+     
